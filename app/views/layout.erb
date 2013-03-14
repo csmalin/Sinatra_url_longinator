@@ -6,11 +6,25 @@
     differences in how form elements appear between Firefox and IE
     See: http://necolas.github.com/normalize.css/
   -->
+  <link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+  <link rel="stylesheet" href="/css/application.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+  <script src="/js/application.js"></script>
 
   <title></title>
 </head>
 <body>
+  <div class="container">
+  <h1 class="logo"><a href="/"><img width="300px" src="/images/longer.png" alt="Long.er"/></a></h1>
+   <form action="/urls" method="post" class="postform">
+    <input type="text" name="url" size="43" class="input-url">
+    <input type="submit" value="Longify" class="button">
+  </form>
+
   <%= yield %>
+  </div>
 </body>
 </html>

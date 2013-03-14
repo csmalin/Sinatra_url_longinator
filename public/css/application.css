@@ -1,0 +1,60 @@
+body {
+  font-family: 'Gabriela', serif;
+}
+
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+ 
+}
+
+th {
+  text-align: left;
+}
+
+form {
+  background: #61b3de;
+  padding: 10px;
+  text-align: center;  
+  margin: 0 auto;
+  width: 530px;
+}
+
+.input-url {
+  margin-right: 10px;
+  background-image: url('/images/img.png');
+  background-position: 6px center;
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  background-color: none;
+}
+
+.button {
+  background-color: #ee6123;
+  border-radius: 5px;
+  border-width: 0px;
+  font-size: 14px;
+  padding: 5px 15px;
+  color: white;
+  box-shadow: 1px 1px 1px #888;
+
+}
+
+.logo {
+  text-align: center; 
+}
+
+.popdown {
+  margin: 0px 25px;
+  border: solid 1px #61b3de;
+  display: none;
+  text-align: center;
+  
+}
+
+.popdown a {
+  text-decoration: none;
+  color: #99ccff;
+}
+
